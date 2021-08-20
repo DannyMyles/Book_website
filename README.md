@@ -7,12 +7,12 @@ Danny Myles
 This website can allow users to add or remove books from the website. It is a simple website  that you will love 
 {Date 20.08.2021}
 ## Check out the website
-[https://dan-muhadi.github.io/Book_website/]
+[https://dannymyles.github.io/Book_website/]
 ### Setup/Installation Requirements
 Does not require installation
 
 ## Known Bugs
-The website is not active.
+
 
 ## Technologies Used
 HTML  and CSS-- front-end
