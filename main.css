@@ -1,0 +1,62 @@
+.app-container{
+padding: 5px;
+}
+
+.app-container table{
+    width: 100%;
+}
+
+.app-container table thead{
+    background-color: gray;
+}
+
+/* .app-container table tbody tr:nth-child() */
+
+.main-app-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.main-app-bar div{
+    align-self: center;
+}
+
+#addbook-container{
+    padding: 10px;
+    position: absolute;
+    display: none;
+    align-content: center;
+    background-color: rgba(0,0, 0, .5);
+    left: 0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#addbook-container div{
+    padding: 5px;
+    width: 100%;
+}
+
+#addbook-container form{
+    align-self: center;
+    background-color: white;
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#addbook-container form label{
+    display: block;
+    width: 100%;
+}
+
+#addbook-container form input{
+    width: 95%;
+    padding: 5px;
+}

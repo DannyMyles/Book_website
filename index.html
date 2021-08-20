@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <div class="app-container">
+        <div class="main-app-bar">
+            <h2>Books</h2>
+            <div>
+                <button id="addBookButton">Add Book</button>
+            </div>
+        </div>
+        <table cellpadding="1" >
+            <thead>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Date Added</th>
+                <th>Actions</th>
+            </thead>
+
+            <tbody>
+                
+            </tbody>
+        </table>
+
+    </div>
+
+    <div id="addbook-container">
+        
+        <form action="" id="addBookForm">
+            <div>
+                <h3>Add Book</h3>
+            </div>
+            <div>
+                <label for="name">Book Name</label>
+                <input type="text" name="bookName" id="name">
+            </div>
+            <div>
+                <label for="author">Book Author</label>
+                <input type="text" name="bookAuthor" id="author">
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <input type="text" name="description" id="description">
+            </div>
+            <div>
+                <button type="submit">Add Book</button>
+                <button type="button" id="cancelBtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <template id="rowTemplate">
+        <tr>
+            <td>{name}</td>
+            <td>{author}</td>
+            <td><button class="editBtn">edit</button></td>
+            <td><button class="delBtn">Delete</button></td>
+        </tr>
+    </template>
+
+    <script src="main.js"></script>
+</body>
+</html>
