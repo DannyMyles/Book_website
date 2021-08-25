@@ -26,3 +26,5 @@ If you have any issues, questions, ideas or concerns, feel free to contact.
 see License file Copyright (c) {2021}
 ## Website Design
 see Website Design file
+## Extra studies [ Code: https://github.com/john-smilga/javasc...
+🔗 View completed projects: https://www.vanillajavascriptprojects...]
